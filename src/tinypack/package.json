@@ -1,5 +1,5 @@
 {
-  "name": "tinypack_demo",
+  "name": "fkwebpack-demo",
   "version": "1.0.7",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "bin",
     "lib"
   ],
-  "bin": {
-    "tinypack": "./bin/pack"
+  "scripts": {
+    "start":"node ./bin/pack"
   },
   "author": "",
   "license": "ISC",
